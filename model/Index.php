@@ -2,7 +2,6 @@
 namespace App\controllers;
     use App\classes\Variables;
     use App\clue\Clue_Telematry;
-
     require_once 'classes/Controller.php';
 Class Index extends Controller
 {
