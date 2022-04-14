@@ -4,7 +4,7 @@
 namespace App\classes\Database;
 
 use App\classes\Config;
-use App\classes\enum\Enummode;
+
 
 /**
  * Class sqlHousing
@@ -19,7 +19,11 @@ class SQLhousing implements Housingbase{
      */
     public function Test($variable1, $variable, $variable3)
     {
-        //TODO SQL GOES HERE.
+        //TODO PUT SQL HERE- EXAMPLE OF SQL BUILDER;
+        //  $query = (new QueryBuilder())
+        //->select('COALESCE (count(clue.id))')
+        //->from('database')
+        //->where("type=" . " 'something'");//
     }
     // ** Please leave the below two function as these are vital for checking tables exist in the framework. ** \\
     /**
