@@ -21,8 +21,6 @@ class SQLhousing implements Housingbase{
     {
         //TODO SQL GOES HERE.
     }
-
-
     // ** Please leave the below two function as these are vital for checking tables exist in the framework. ** \\
     /**
      * @return string
