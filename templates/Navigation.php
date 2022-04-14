@@ -2,10 +2,7 @@
 if (!isset($_SESSION)) {
     session_start();
 }
-
-
 ?>
-
 <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas>
     <div class="grid-y grid-padding-x" style="height: 100%;">
         <br>
